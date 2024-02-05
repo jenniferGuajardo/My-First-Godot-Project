@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://d3ni7jrrnymgs"]
+
+[ext_resource type="Texture2D" uid="uid://be4mp1qvn7knq" path="res://icon.svg" id="1_femvx"]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(-3, 0)
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(522, 280)
+scale = Vector2(0.786269, 1.0946)
+skew = 0.47822
+texture = ExtResource("1_femvx")
+
+[node name="Icon-Child" type="Sprite2D" parent="Icon"]
+position = Vector2(153.541, -127.598)
+rotation = -0.453786
+scale = Vector2(0.775915, 0.738779)
+skew = -0.462512
+texture = ExtResource("1_femvx")
